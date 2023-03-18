@@ -1,0 +1,109 @@
+.container {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 3px solid #000;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Item1 {
+    color: red;
+    font-size: x-small;
+}
+
+.Item2 {
+
+    text-align: center;
+    border: 3px solid #000;
+    padding: 5px;
+    border-bottom: 3px dotted white;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Item2-1 {
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Item2-1-1 {
+
+    font-size: 40px;
+    text-align: left;
+}
+
+.Item2-1-2 {
+
+    font-size: small;
+    text-align: left;
+}
+
+.Item2-2 {
+
+    background-color: rgb(204, 30, 30);
+}
+
+.Item3 {
+
+    text-align: center;
+    border: 3px solid #000;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Item3-1 {
+
+    font-size: 30px;
+    text-align: left;
+    color: red;
+    flex-grow: 1;
+}
+
+.Item3-2 {
+
+    font-size: small;
+    flex-grow: 2;
+}
+
+.highlight span {
+    font-size: small;
+
+    background-color: red;
+}
+
+.dot {
+    color: red;
+    font-size: small;
+}
+
+.num {
+    background-color: red;
+    color: white;
+}
+
+.head {
+    font-size: large;
+    font-weight: bold;
+}
+
+.content {
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
